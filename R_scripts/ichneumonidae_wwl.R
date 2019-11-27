@@ -15,9 +15,9 @@
 #'
 #' @details 
 #' Equations used are as follow
-#' unknown sex:  y = exp(-2.39750 + (1.88688 * log(wing_length)))
-#' females: y = exp(-2.34714 + (1.87114 * log(wing_length)))
-#' males:  y = exp(-2.41326 + (1.85678 * log(wing_length)))
+#' unknown sex:  y = exp(-2.40998 + (1.89329 * log(wing_length)))
+#' females: y = exp(-2.35497 + (1.87731 * log(wing_length))
+#' males:  y = exp(-2.48655 + (1.91227 * log(wing_length)))
 
 ichneumonidae_wwl <- function(wing_length, units_wing_length, sex = "unknown") {
   
@@ -39,9 +39,9 @@ ichneumonidae_wwl <- function(wing_length, units_wing_length, sex = "unknown") {
   
   if (sex %in% c("unknown", "m", "f")) {
     wing_length <- log(wing_length)
-    if (sex == "unknown") {y <- exp(-2.39750 + (1.88688 * wing_length))}
-    if (sex == "m") {y <- exp(-2.41326 + (1.85678 * wing_length))}
-    if (sex == "f") {y <- exp(-2.34714 + (1.87114 * wing_length))}
+    if (sex == "unknown") {y <- exp(-2.40998 + (1.89329 * wing_length))}
+    if (sex == "m") {y <- exp(-2.48655 + (1.91227 * wing_length))}
+    if (sex == "f") {y <- exp(-2.35497 + (1.87731 * wing_length))}
   } else {
     stop("Argument sex is not valid, see function's help.")
   } 
