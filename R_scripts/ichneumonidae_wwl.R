@@ -19,9 +19,9 @@
 #' 
 #' To cite the use of this function in scientific papers use:
 #' 
-#' Mazón, M., C. Nuñez-Penichet, M.E. Cobos (in review). Relationship between 
-#' body mass and forewing length in Neotropical Ichneumonidae (Insecta: 
-#' Hymenoptera). Neotropical Entomology.
+#' Mazón, M., Nuñez-Penichet, C. & Cobos, M.E. Relationship Between Body Mass and 
+#' Forewing Length in Neotropical Ichneumonidae (Insecta: Hymenoptera). 
+#' Neotrop Entomol 49, 713-721 (2020). https://doi.org/10.1007/s13744-020-00784-9
 #' 
 #' Calculations are made based on the equations described below. Argument 
 #' \code{sex_or_strategy} allows definitions of sex or parasitism strategy, but 
